@@ -7,7 +7,12 @@
         <title>robbinworks</title>
         <link rel="stylesheet" href="{{ mix('css/app.css', 'assets/build') }}">
     </head>
-    <body class="font-sans font-normal leading-normal tracking-normal text-xl text-black">
-        @yield('body')
+    <body class="font-sans font-normal leading-normal tracking-normal text-base md:text-lg text-gray-darker flex flex-wrap">
+        <div class="w-full min-h-screen flex flex-col">
+            <div class="flex-1">
+                @yield('body')
+            </div>
+            @include('_partials.footer')
+        </div>
     </body>
 </html>
