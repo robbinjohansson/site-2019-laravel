@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>robbinworks</title>
+        <title>robbin.works</title>
+        <meta name="description" content="I'm Robbin, a web wizard from Sweden who enjoys building great web apps.">
         <link rel="stylesheet" href="{{ mix('css/app.css', 'assets/build') }}">
     </head>
     <body class="font-sans font-normal leading-normal tracking-normal text-base md:text-lg text-gray-darker flex flex-wrap">
