@@ -9,11 +9,12 @@
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     </head>
     <body class="font-sans font-normal leading-normal tracking-normal text-base md:text-lg text-gray-darker flex flex-wrap">
-        <div class="w-full min-h-screen flex flex-col">
+        <div id="app" class="w-full min-h-screen flex flex-col">
             <div class="flex-1">
                 @yield('body')
             </div>
             @include('_partials.footer')
         </div>
+        {{-- <script src="{{ mix('js/app.js') }}"></script> --}}
     </body>
 </html>

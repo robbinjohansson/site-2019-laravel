@@ -20,7 +20,8 @@
         "postcss-import": "^12.0.1",
         "postcss-nesting": "^7.0.0",
         "tailwindcss": "^0.7.3",
-        "vue-template-compiler": "^2.5.22",
+        "vue": "2.6.4",
+        "vue-template-compiler": "^2.6.4",
         "yargs": "^4.6.0"
     }
 }
