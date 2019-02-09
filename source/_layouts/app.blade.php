@@ -6,7 +6,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>robbin.works</title>
         <meta name="description" content="I'm Robbin, a web wizard from Sweden who enjoys building great web apps.">
-        <link rel="stylesheet" href="{{ mix('css/app.css', 'assets/build') }}">
+        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     </head>
     <body class="font-sans font-normal leading-normal tracking-normal text-base md:text-lg text-gray-darker flex flex-wrap">
         <div class="w-full min-h-screen flex flex-col">
