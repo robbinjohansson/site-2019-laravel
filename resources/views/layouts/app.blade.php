@@ -13,7 +13,6 @@
     <meta name="theme-color" content="#ffffff">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name', 'Laravel') }}</title>
-    <meta property="og:url" content="{{ url()->full() }}" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ config('app.name', 'Laravel') }}" />
     <meta property="og:description" content="I'm Robbin, I enjoy building great web apps." />

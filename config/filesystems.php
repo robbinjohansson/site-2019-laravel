@@ -64,6 +64,11 @@ return [
             'url' => env('AWS_URL'),
         ],
 
+        'export' => [
+            'driver' => 'local',
+            'root' => base_path('build_production'),
+        ],
+
     ],
 
 ];
