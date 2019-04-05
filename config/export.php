@@ -30,8 +30,6 @@ return [
      */
     'exclude' => [
         '/\.php$/',
-        '/\.htaccess$/',
-        '/\.config$/',
     ],
 
     /*
