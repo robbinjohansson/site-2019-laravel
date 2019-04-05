@@ -1,6 +1,7 @@
 @import "tailwindcss/base";
 
 /* Add custom base styles here... */
+@import "./common/_base";
 
 @import "tailwindcss/components";
 
