@@ -1,7 +1,6 @@
 [build]
 
 command = "php artisan export"
-base = "build_production/"
 publish = "build_production/"
 
 [build.environment]
