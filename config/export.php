@@ -43,7 +43,7 @@ return [
      * Shell commands that should be run after the export was created.
      */
     'after' => [
-        // 'deploy' => '/usr/local/bin/netlify deploy --prod',
+        'deploy' => '/usr/local/bin/netlify deploy --prod',
     ],
 
 ];
