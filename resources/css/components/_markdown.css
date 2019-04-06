@@ -1,0 +1,22 @@
+.markdown {
+    & h1, & h2, & h3 {
+        &:not(:first-child) {
+            @apply .mt-12;
+        }
+    }
+    & p {
+        &:not(:last-child) {
+            @apply .mb-8;
+        }
+    }
+    & img {
+        @apply .mt-12;
+
+        @screen md {
+            @apply .max-w-none;
+            margin-left: -10%;
+            margin-right: -10%;
+            width: 120%;
+        }
+    }
+}

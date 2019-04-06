@@ -149,6 +149,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'PT Sans',
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',
@@ -164,6 +165,7 @@ module.exports = {
       ],
       serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: [
+        'Inconsolata',
         'Menlo',
         'Monaco',
         'Consolas',
@@ -288,6 +290,7 @@ module.exports = {
       screen: '100vh',
     },
     maxWidth: {
+      none: 'none',
       xs: '20rem',
       sm: '24rem',
       md: '28rem',

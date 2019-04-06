@@ -24,17 +24,16 @@
     <meta name="theme-color" content="#ffffff">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name', 'Laravel') }}</title>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:700|PT+Sans:400,700" rel="stylesheet">
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ config('app.name', 'Laravel') }}" />
     <meta property="og:description" content="I'm Robbin, I enjoy building great web apps." />
     <script src="{{ mix('js/app.js') }}" defer></script>
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
-<body class="font-sans font-normal text-lg text-gray-700 tracking-wide leading-relaxed flex flex-wrap">
-    <div id="app" class="w-full min-h-screen flex flex-col">
-        <div class="flex-1">
-            @yield('content')
-        </div>
+<body class="font-sans font-normal text-lg text-gray-700 tracking-wider leading-relaxed">
+    <div id="app">
+        @yield('content')
         @include('partials.footer')
     </div>
 </body>
