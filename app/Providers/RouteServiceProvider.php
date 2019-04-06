@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Models\Post;
+use Spatie\Sheets\Sheets;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
@@ -23,9 +25,16 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
-
         parent::boot();
+
+        Route::bind('post', function ($dateSlug) {
+            return $this->app->make(Sheets::class)
+                ->collection('posts')->all()
+                ->first(function (Post $post) use ($dateSlug) {
+                    // return "{$post->date->format('Y-m-d')}-{$post->slug}" === $dateSlug;
+                    return $post->slug === $dateSlug;
+                }) ?? abort(404);
+        });
     }
 
     /**
