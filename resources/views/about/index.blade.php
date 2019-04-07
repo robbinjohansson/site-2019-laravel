@@ -10,7 +10,7 @@
                 <img src="https://source.unsplash.com/jJqd2mc-M9Q/1216x684" alt="about">
             </div>
             <h2 class="mt-10 mb-8 pt-10 border-t">Featured projects</h2>
-            <div class="mb-6">
+            <div class="mb-8">
                 <h3><a href="#">Project title</a></h3>
                 <div class="mb-4">
                     <div class="text-xs font-bold text-gray-500">
@@ -22,7 +22,7 @@
                 </div>
                 <a href="#" class="text-xs text-gray-600 hover:text-black font-normal">Visit on Github &rarr;</a>
             </div>
-            <div class="mb-6">
+            <div class="mb-8">
                 <h3><a href="#">Project title</a></h3>
                 <div class="mb-4">
                     <div class="text-xs font-bold text-gray-500">
@@ -34,7 +34,7 @@
                 </div>
                 <a href="#" class="text-xs text-gray-600 hover:text-black font-normal">Visit on Github &rarr;</a>
             </div>
-            <div class="mb-6">
+            <div class="mb-8">
                 <h3><a href="#">Project title</a></h3>
                 <div class="mb-4">
                     <div class="text-xs font-bold text-gray-500">
@@ -46,7 +46,7 @@
                 </div>
                 <a href="#" class="text-xs text-gray-600 hover:text-black font-normal">Visit on Github &rarr;</a>
             </div>
-            <div class="mb-6">
+            <div class="mb-8">
                 <h3><a href="#">Project title</a></h3>
                 <div class="mb-4">
                     <div class="text-xs font-bold text-gray-500">
