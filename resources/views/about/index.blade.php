@@ -10,62 +10,62 @@
                 <img src="https://source.unsplash.com/jJqd2mc-M9Q/1216x684" alt="about">
             </div>
             <h2 class="mt-10 mb-8 pt-10 border-t">Featured projects</h2>
-            <div class="mb-8">
+            <div class="mb-10">
                 <h3><a href="#">Project title</a></h3>
-                <div class="mb-4">
+                <div class="mb-2">
                     <div class="text-xs font-bold text-gray-500">
                         #javascript #vuejs
                     </div>
                 </div>
-                <div class="mb-1">
+                <div class="text-sm mb-1">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolores rem, laboriosam. Vitae deserunt itaque, ipsam ab et blanditiis dicta, recusandae.</p>
                 </div>
                 <a href="#">Visit on Github &rarr;</a>
             </div>
-            <div class="mb-8">
+            <div class="mb-10">
                 <h3><a href="#">Project title</a></h3>
-                <div class="mb-4">
+                <div class="mb-2">
                     <div class="text-xs font-bold text-gray-500">
                         #javascript #vuejs
                     </div>
                 </div>
-                <div class="mb-1">
+                <div class="text-sm mb-1">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolores rem, laboriosam. Vitae deserunt itaque, ipsam ab et blanditiis dicta, recusandae.</p>
                 </div>
                 <a href="#">Visit on Github &rarr;</a>
             </div>
-            <div class="mb-8">
+            <div class="mb-10">
                 <h3><a href="#">Project title</a></h3>
-                <div class="mb-4">
+                <div class="mb-2">
                     <div class="text-xs font-bold text-gray-500">
                         #javascript #vuejs
                     </div>
                 </div>
-                <div class="mb-1">
+                <div class="text-sm mb-1">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolores rem, laboriosam. Vitae deserunt itaque, ipsam ab et blanditiis dicta, recusandae.</p>
                 </div>
                 <a href="#">Visit on Github &rarr;</a>
             </div>
-            <div class="mb-8">
+            <div class="mb-10">
                 <h3><a href="#">Project title</a></h3>
-                <div class="mb-4">
+                <div class="mb-2">
                     <div class="text-xs font-bold text-gray-500">
                         #javascript #vuejs
                     </div>
                 </div>
-                <div class="mb-1">
+                <div class="text-sm mb-1">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolores rem, laboriosam. Vitae deserunt itaque, ipsam ab et blanditiis dicta, recusandae.</p>
                 </div>
                 <a href="#">Visit on Github &rarr;</a>
             </div>
             <div>
                 <h3><a href="#">Project title</a></h3>
-                <div class="mb-4">
+                <div class="mb-2">
                     <div class="text-xs font-bold text-gray-500">
                         #javascript #vuejs
                     </div>
                 </div>
-                <div class="mb-1">
+                <div class="text-sm mb-1">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolores rem, laboriosam. Vitae deserunt itaque, ipsam ab et blanditiis dicta, recusandae.</p>
                 </div>
                 <a href="#">Visit on Github &rarr;</a>
