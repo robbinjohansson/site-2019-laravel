@@ -7,7 +7,7 @@
                 </div>
                 <nav class="flex-1 text-right">
                     <a href="{{ route('about') }}" class="text-gray-600 hover:text-black font-normal ml-3">About</a>
-                    <a href="/" class="text-gray-600 hover:text-black font-normal ml-3">Archive</a>
+                    <a href="{{ route('posts.archive') }}" class="text-gray-600 hover:text-black font-normal ml-3">Archive</a>
                     <a href="https://github.com/robbinworks" target="_BLANK" rel="noopener" class="text-gray-600 hover:text-black font-normal ml-3">Github</a>
                 </nav>
             </div>

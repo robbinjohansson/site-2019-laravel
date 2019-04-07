@@ -30,4 +30,16 @@ class PostController
     {
         return view('posts.show', ['post' => $post]);
     }
+
+    /**
+     * Display the entire archive of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function archive(Sheets $sheets)
+    {
+        return view('posts.archive', [
+            'posts' => $sheets->collection('posts')->all()->sortByDesc('date'),
+        ]);
+    }
 }
