@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="md:flex md:flex-wrap -mx-4 md:justify-center">
-        <div class="w-full md:w-1/2 px-4">
+        <div class="w-full md:w-3/4 lg:w-1/2 px-4">
             @foreach ($posts as $post)
                 <div class="{{ !$loop->last ? 'mb-12' : '' }}">
                     <h1><a href="{{ $post->url }}">{{ $post->title }}</a></h1>

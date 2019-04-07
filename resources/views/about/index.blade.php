@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="md:flex md:flex-wrap -mx-4 md:justify-center">
-        <div class="w-full md:w-1/2 px-4">
+        <div class="w-full md:w-3/4 lg:w-1/2 px-4">
             <div class="markdown">
                 <h1 class="mb-3">About</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis praesentium aliquam rerum illo dolorem cupiditate officiis rem repudiandae quasi, non dignissimos accusantium voluptate voluptatum soluta. Earum ducimus et, praesentium eligendi.</p>

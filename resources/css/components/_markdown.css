@@ -12,7 +12,7 @@
         }
     }
 
-    & img {
+    & img, & pre {
         @apply .my-10;
 
         @screen md {

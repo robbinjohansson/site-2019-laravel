@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="md:flex md:flex-wrap -mx-4 md:justify-center">
-        <div class="w-full md:w-1/2 px-4">
+        <div class="w-full md:w-3/4 lg:w-1/2 px-4">
             <div class="w-full">
                 <h1>{{ $post->title }}</h1>
                 <div class="mb-8">
