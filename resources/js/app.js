@@ -1,4 +1,6 @@
-require('./bootstrap');
+
+const Prism = require('./extras/prism');
+Prism.highlightAll();
 
 window.Vue = require('vue');
 

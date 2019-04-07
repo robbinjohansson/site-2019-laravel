@@ -22,7 +22,6 @@
     <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#f7fafc">
     <meta name="msapplication-TileColor" content="#f7fafc">
     <meta name="theme-color" content="#ffffff">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name', 'Laravel') }}</title>
     <link href="https://fonts.googleapis.com/css?family=Inconsolata:700|PT+Sans:400,700" rel="stylesheet">
     <meta property="og:type" content="website" />
