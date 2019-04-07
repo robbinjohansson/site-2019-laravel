@@ -16,7 +16,7 @@ class PostController
     public function index(Sheets $sheets)
     {
         return view('posts.index', [
-            'posts' => $sheets->collection('posts')->all()->sortByDesc('date'),
+            'posts' => $sheets->collection('posts')->all()->sortByDesc('date')->take(3),
         ]);
     }
 
