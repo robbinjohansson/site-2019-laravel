@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<article class="container">
     <div class="md:flex md:flex-wrap -mx-4 md:justify-center">
         <div class="w-full md:w-3/4 lg:w-1/2 px-4">
             <div class="w-full">
@@ -17,5 +17,5 @@
             </div>
         </div>
     </div>
-</div>
+</article>
 @endsection
