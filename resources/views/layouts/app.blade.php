@@ -23,7 +23,6 @@
     <meta name="msapplication-TileColor" content="#f7fafc">
     <meta name="theme-color" content="#ffffff">
     <title>{{ config('app.name', 'Laravel') }}</title>
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata:700|PT+Sans:400,700" rel="stylesheet">
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ config('app.name', 'Laravel') }}" />
     <meta property="og:description" content="I'm Robbin, I enjoy building great web apps." />

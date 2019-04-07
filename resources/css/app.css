@@ -2,6 +2,7 @@
 
 /* Add custom base styles here... */
 @import "./common/_base";
+@import "./common/_fonts";
 
 @import "tailwindcss/components";
 
