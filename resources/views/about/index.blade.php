@@ -4,71 +4,62 @@
 <div class="container">
     <div class="md:flex md:flex-wrap -mx-4 md:justify-center">
         <div class="w-full md:w-3/4 lg:w-1/2 px-4">
+            <h1 class="mb-3">About</h1>
             <div class="markdown">
-                <h1 class="mb-3">About</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis praesentium aliquam rerum illo dolorem cupiditate officiis rem repudiandae quasi, non dignissimos accusantium voluptate voluptatum soluta. Earum ducimus et, praesentium eligendi.</p>
-                <img src="https://source.unsplash.com/jJqd2mc-M9Q/1216x684" alt="about">
+                <p>I'm a web wizard from Sweden who enjoys developing great web applications, explore new technologies, contribute to open source projects and to spend time with my family.</p>
+                <p>PHP, Laravel, Javascript, Vuejs, Tailwindcss, Webpack, Rollupjs, CSS, SASS, LESS, HTML are all included in my daily workflow.</p>
+                <img src="/images/about.jpg" alt="about">
+                <p>☝🏻Photo taken by <a href="http://github.com/johanlinander" target="_BLANK" rel="noopener">@johanlinander.</a> It's a few years old but it was the best I could find, it was either that or a random image of a cat.</p>
+                <p>Full source code of this website is open source and available over at <a href="https://github.com/robbinworks/site" target="_BLANK" rel="noopener">GitHub.</a></p>
             </div>
-            <h2 class="mt-10 mb-8 pt-10 border-t">Featured projects</h2>
+            <h2 class="mt-10 mb-8 pt-10 border-t">Recent projects</h2>
             <div class="mb-10">
-                <h3><a href="#">Project title</a></h3>
+                <h3><a href="#">v-siema</a></h3>
                 <div class="mb-2">
                     <div class="text-xs font-bold text-gray-500">
-                        #javascript #vuejs
+                        #vue #vue-component #carousel
                     </div>
                 </div>
                 <div class="text-sm mb-1">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolores rem, laboriosam. Vitae deserunt itaque, ipsam ab et blanditiis dicta, recusandae.</p>
+                    <p>Vue wrapper for Siema carousel.</p>
                 </div>
-                <a href="#">Visit on Github &rarr;</a>
+                <a href="https://github.com/robbinworks/v-siema" target="_BLANK" rel="noopener">View on GitHub &rarr;</a>
             </div>
             <div class="mb-10">
-                <h3><a href="#">Project title</a></h3>
+                <h3><a href="#">vuebbble</a></h3>
                 <div class="mb-2">
                     <div class="text-xs font-bold text-gray-500">
-                        #javascript #vuejs
+                        #vue #vue-component #dribbble-api
                     </div>
                 </div>
                 <div class="text-sm mb-1">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolores rem, laboriosam. Vitae deserunt itaque, ipsam ab et blanditiis dicta, recusandae.</p>
+                    <p>Vue component to easily display dribbble shots from a user using the v2 API.</p>
                 </div>
-                <a href="#">Visit on Github &rarr;</a>
+                <a href="https://github.com/robbinworks/vuebbble" target="_BLANK" rel="noopener">View on GitHub &rarr;</a>
             </div>
             <div class="mb-10">
-                <h3><a href="#">Project title</a></h3>
+                <h3><a href="#">vue-scroll-indicator</a></h3>
                 <div class="mb-2">
                     <div class="text-xs font-bold text-gray-500">
-                        #javascript #vuejs
+                        #vue #vue-component #js-scroll-indicator
                     </div>
                 </div>
                 <div class="text-sm mb-1">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolores rem, laboriosam. Vitae deserunt itaque, ipsam ab et blanditiis dicta, recusandae.</p>
+                    <p>Scroll indicator component using Vue.js.</p>
                 </div>
-                <a href="#">Visit on Github &rarr;</a>
-            </div>
-            <div class="mb-10">
-                <h3><a href="#">Project title</a></h3>
-                <div class="mb-2">
-                    <div class="text-xs font-bold text-gray-500">
-                        #javascript #vuejs
-                    </div>
-                </div>
-                <div class="text-sm mb-1">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolores rem, laboriosam. Vitae deserunt itaque, ipsam ab et blanditiis dicta, recusandae.</p>
-                </div>
-                <a href="#">Visit on Github &rarr;</a>
+                <a href="https://github.com/robbinworks/vue-scroll-indicator" target="_BLANK" rel="noopener">View on GitHub &rarr;</a>
             </div>
             <div>
-                <h3><a href="#">Project title</a></h3>
+                <h3><a href="#">haywire-grav</a></h3>
                 <div class="mb-2">
                     <div class="text-xs font-bold text-gray-500">
-                        #javascript #vuejs
+                        #grav-cms #grav-starter-theme
                     </div>
                 </div>
                 <div class="text-sm mb-1">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolores rem, laboriosam. Vitae deserunt itaque, ipsam ab et blanditiis dicta, recusandae.</p>
+                    <p>Starter theme for Grav CMS using modern tools and frameworks.</p>
                 </div>
-                <a href="#">Visit on Github &rarr;</a>
+                <a href="https://github.com/robbinworks/haywire-grav" target="_BLANK" rel="noopener">View on GitHub &rarr;</a>
             </div>
         </div>
     </div>
