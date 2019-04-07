@@ -33,6 +33,7 @@
 </head>
 <body class="font-sans font-normal text-lg text-gray-700 tracking-wider leading-relaxed">
     <div id="app">
+        @include('partials.navbar')
         @yield('content')
         @include('partials.footer')
     </div>

@@ -1,3 +1,4 @@
+/* purgecss start ignore */
 :root {
     font-size: 16px;
 }
@@ -24,3 +25,4 @@ a {
         @apply .underline;
     }
 }
+/* purgecss end ignore */

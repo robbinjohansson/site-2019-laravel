@@ -1,3 +1,4 @@
+/* purgecss start ignore */
 .markdown {
     & h1, & h2, & h3 {
         &:not(:first-child) {
@@ -20,3 +21,4 @@
         }
     }
 }
+/* purgecss end ignore */
