@@ -8,7 +8,7 @@
                 <h1>{{ $post->title }}</h1>
                 <div class="mb-8">
                     <div class="text-xs font-bold text-gray-500">
-                        {{ $post->date->format('d F, Y') }}.
+                        {{ dateFormat($post->date) }}.
                     </div>
                 </div>
                 <div class="markdown">
