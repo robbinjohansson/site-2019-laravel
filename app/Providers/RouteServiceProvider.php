@@ -27,12 +27,11 @@ class RouteServiceProvider extends ServiceProvider
     {
         parent::boot();
 
-        Route::bind('post', function ($dateSlug) {
+        Route::bind('post', function ($slug) {
             return $this->app->make(Sheets::class)
                 ->collection('posts')->all()
-                ->first(function (Post $post) use ($dateSlug) {
-                    // return "{$post->date->format('Y-m-d')}-{$post->slug}" === $dateSlug;
-                    return $post->slug === $dateSlug;
+                ->first(function (Post $post) use ($slug) {
+                    return $post->slug === $slug;
                 }) ?? abort(404);
         });
     }
