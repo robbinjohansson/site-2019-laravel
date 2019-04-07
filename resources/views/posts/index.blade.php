@@ -15,7 +15,7 @@
                     <div class="markdown mb-1">
                         {{ $post->intro }}
                     </div>
-                    <a href="{{ $post->url }}" class="text-xs text-gray-600 hover:text-black font-normal">Read more &rarr;</a>
+                    <a href="{{ $post->url }}">Read more &rarr;</a>
                 </div>
             @endforeach
         </div>

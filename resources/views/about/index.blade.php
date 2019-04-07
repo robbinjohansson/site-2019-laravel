@@ -20,7 +20,7 @@
                 <div class="mb-1">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolores rem, laboriosam. Vitae deserunt itaque, ipsam ab et blanditiis dicta, recusandae.</p>
                 </div>
-                <a href="#" class="text-xs text-gray-600 hover:text-black font-normal">Visit on Github &rarr;</a>
+                <a href="#">Visit on Github &rarr;</a>
             </div>
             <div class="mb-8">
                 <h3><a href="#">Project title</a></h3>
@@ -32,7 +32,7 @@
                 <div class="mb-1">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolores rem, laboriosam. Vitae deserunt itaque, ipsam ab et blanditiis dicta, recusandae.</p>
                 </div>
-                <a href="#" class="text-xs text-gray-600 hover:text-black font-normal">Visit on Github &rarr;</a>
+                <a href="#">Visit on Github &rarr;</a>
             </div>
             <div class="mb-8">
                 <h3><a href="#">Project title</a></h3>
@@ -44,7 +44,7 @@
                 <div class="mb-1">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolores rem, laboriosam. Vitae deserunt itaque, ipsam ab et blanditiis dicta, recusandae.</p>
                 </div>
-                <a href="#" class="text-xs text-gray-600 hover:text-black font-normal">Visit on Github &rarr;</a>
+                <a href="#">Visit on Github &rarr;</a>
             </div>
             <div class="mb-8">
                 <h3><a href="#">Project title</a></h3>
@@ -56,7 +56,7 @@
                 <div class="mb-1">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolores rem, laboriosam. Vitae deserunt itaque, ipsam ab et blanditiis dicta, recusandae.</p>
                 </div>
-                <a href="#" class="text-xs text-gray-600 hover:text-black font-normal">Visit on Github &rarr;</a>
+                <a href="#">Visit on Github &rarr;</a>
             </div>
             <div>
                 <h3><a href="#">Project title</a></h3>
@@ -68,7 +68,7 @@
                 <div class="mb-1">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolores rem, laboriosam. Vitae deserunt itaque, ipsam ab et blanditiis dicta, recusandae.</p>
                 </div>
-                <a href="#" class="text-xs text-gray-600 hover:text-black font-normal">Visit on Github &rarr;</a>
+                <a href="#">Visit on Github &rarr;</a>
             </div>
         </div>
     </div>

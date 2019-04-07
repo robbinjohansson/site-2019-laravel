@@ -5,24 +5,28 @@
 
 h1,h2,h3,h4,h5,h6 {
     @apply .text-black .font-mono .font-bold .tracking-tight .leading-snug .mb-2;
+    & a {
+        @apply .text-black .font-bold;
+    }
 }
 
-h1 {
+h1, h1 a {
     @apply .text-4xl;
 }
 
-h2 {
+h2, h2 a {
     @apply .text-2xl;
 }
 
-h3 {
+h3, h3 a {
     @apply .text-xl;
 }
 
 a {
-    @apply .font-bold .text-black;
+    @apply .text-xs .text-gray-600 .font-normal;
+
     &:hover {
-        @apply .underline;
+        @apply .text-black .underline;
     }
 }
 /* purgecss end ignore */

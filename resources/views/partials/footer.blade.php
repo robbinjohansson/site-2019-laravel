@@ -4,7 +4,7 @@
             <div class="w-full md:w-1/2 px-4 text-xs text-gray-600">
                 &copy; {{ date('Y') }}
                 –
-                <a href="mailto:mail@robbin.works" class="text-gray-600 hover:text-black font-normal">mail@robbin.works</a>
+                <a href="mailto:mail@robbin.works">mail@robbin.works</a>
             </div>
         </div>
     </div>

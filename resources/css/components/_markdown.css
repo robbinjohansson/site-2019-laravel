@@ -5,11 +5,13 @@
             @apply .mt-12;
         }
     }
+
     & p {
         &:not(:last-child) {
             @apply .mb-10;
         }
     }
+
     & img {
         @apply .my-10;
 
@@ -19,6 +21,10 @@
             margin-right: -10%;
             width: 120%;
         }
+    }
+
+    & a {
+        @apply .text-lg .px-1 -mx-1 .bg-gray-200;
     }
 }
 /* purgecss end ignore */
