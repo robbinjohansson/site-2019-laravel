@@ -7,11 +7,11 @@
     }
     & p {
         &:not(:last-child) {
-            @apply .mb-8;
+            @apply .mb-10;
         }
     }
     & img {
-        @apply .mt-12;
+        @apply .my-10;
 
         @screen md {
             @apply .max-w-none;
