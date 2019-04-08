@@ -6,6 +6,10 @@
         }
     }
 
+    & strong {
+        @apply .text-gray-800;
+    }
+
     & p {
         &:not(:last-child) {
             @apply .mb-10;
