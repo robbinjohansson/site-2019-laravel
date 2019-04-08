@@ -32,5 +32,12 @@
             background-color: rgba(0, 179, 154, 0.4);
         }
     }
+
+    & blockquote {
+        @apply .py-8 .my-12 .border-t .border-b .text-2xl .text-gray-800 .tracking-tight;
+        margin-left: -10%;
+        margin-right: -10%;
+        width: 120%;
+    }
 }
 /* purgecss end ignore */
