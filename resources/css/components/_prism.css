@@ -7,6 +7,16 @@ https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clik
  */
 
 /* purgecss start ignore */
+
+/**
+ * Custom inline code
+ */
+:not(pre) > code {
+    @apply .font-mono .text-gray-800 .font-bold .bg-gray-200;
+    font-size: 1em;
+    padding: .1em;
+    white-space: normal;
+}
 code[class*="language-"],
 pre[class*="language-"] {
     @apply .font-mono .text-gray-100 .font-bold;
