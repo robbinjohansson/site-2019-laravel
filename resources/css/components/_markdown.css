@@ -24,7 +24,13 @@
     }
 
     & a {
-        @apply .text-lg .px-1 -mx-1 .bg-gray-200;
+        @apply .text-lg .text-gray-800 .font-bold .shadow-link;
+        transition: background-color 100ms ease-in, box-shadow 100ms ease-in;
+
+        &:hover {
+            @apply .no-underline .shadow-none;
+            background-color: rgba(0, 179, 154, 0.4);
+        }
     }
 }
 /* purgecss end ignore */

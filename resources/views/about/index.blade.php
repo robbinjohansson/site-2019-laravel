@@ -9,8 +9,8 @@
                 <p>I'm a web wizard from Sweden who enjoys developing great web applications, explore new technologies, contribute to open source projects and to spend time with my family.</p>
                 <p>Occasionally I will blog about web related things, mostly as a way to keep notes for my future self. Hopefully these notes can be of value to other fellow devs as well.</p>
                 <img src="/images/about.jpg" alt="about">
-                <p>☝🏻Photo taken by <a href="http://github.com/johanlinander" target="_BLANK" rel="noopener">@johanlinander.</a> It's a few years old but it was the best I could find, it was either that or a random image of a cat.</p>
-                <p>Full source code of this website is open source and available over at <a href="https://github.com/robbinworks/site" target="_BLANK" rel="noopener">GitHub.</a></p>
+                <p>☝🏻Photo taken by <a href="http://github.com/johanlinander" target="_BLANK" rel="noopener">@johanlinander</a>. It's a few years old but it was the best I could find, it was either that or a random image of a cat.</p>
+                <p>Full source code of this website is open source and available over at <a href="https://github.com/robbinworks/site" target="_BLANK" rel="noopener">GitHub</a>.</p>
             </div>
             <h2 class="mt-10 mb-8 pt-10 border-t">Recent projects</h2>
             <div class="mb-10">
