@@ -38,10 +38,21 @@
     }
 
     & blockquote {
-        @apply .py-8 .my-12 .border-t .border-b .text-2xl .text-gray-800 .tracking-tight;
-        margin-left: -10%;
-        margin-right: -10%;
-        width: 120%;
+        @apply .py-8 .mx-0 .my-12 .border-t .border-b .text-2xl .text-gray-800 .tracking-tight;
+
+        @screen md {
+            margin-left: -10%;
+            margin-right: -10%;
+            width: 120%;
+        }
+
+        & a {
+            @apply .text-2xl .text-gray-800;
+        }
+    }
+
+    & hr {
+        @apply .w-full .h-px .bg-gray-300 .my-10;
     }
 }
 /* purgecss end ignore */
