@@ -69,6 +69,11 @@ return [
             'root' => base_path('build_production'),
         ],
 
+        'posts' => [
+            'driver' => 'local',
+            'root' => base_path('posts'),
+        ],
+
     ],
 
 ];

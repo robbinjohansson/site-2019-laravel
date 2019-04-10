@@ -1,0 +1,58 @@
+/* purgecss start ignore */
+.markdown {
+    & h1, & h2, & h3 {
+        &:not(:first-child) {
+            @apply .mt-12;
+        }
+    }
+
+    & strong {
+        @apply .text-gray-800;
+    }
+
+    & p {
+        &:not(:last-child) {
+            @apply .mb-10;
+        }
+    }
+
+    & img, & pre {
+        @apply .my-10;
+
+        @screen md {
+            @apply .max-w-none;
+            margin-left: -10%;
+            margin-right: -10%;
+            width: 120%;
+        }
+    }
+
+    & a {
+        @apply .text-lg .text-gray-800 .font-bold .shadow-link;
+        transition: background-color 100ms ease-in, box-shadow 100ms ease-in;
+
+        &:hover {
+            @apply .no-underline .shadow-none;
+            background-color: rgba(0, 179, 154, 0.4);
+        }
+    }
+
+    & blockquote {
+        @apply .py-8 .mx-0 .my-12 .border-t .border-b .text-2xl .text-gray-800 .tracking-tight;
+
+        @screen md {
+            margin-left: -10%;
+            margin-right: -10%;
+            width: 120%;
+        }
+
+        & a {
+            @apply .text-2xl .text-gray-800;
+        }
+    }
+
+    & hr {
+        @apply .w-full .h-px .bg-gray-300 .my-10;
+    }
+}
+/* purgecss end ignore */

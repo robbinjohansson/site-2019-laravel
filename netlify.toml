@@ -1,6 +1,6 @@
 [build]
 
-command = "php artisan export"
+command = "rm -rf build_production/ && php artisan export"
 publish = "build_production/"
 
 [build.environment]
