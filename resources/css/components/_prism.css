@@ -17,6 +17,7 @@ https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clik
     padding: .1em;
     white-space: normal;
 }
+
 code[class*="language-"],
 pre[class*="language-"] {
     @apply .font-mono .text-gray-100 .font-bold;
