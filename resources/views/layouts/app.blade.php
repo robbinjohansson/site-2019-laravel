@@ -29,7 +29,7 @@
     <meta name="twitter:description" content="{{ (Route::currentRouteName() === 'posts.show' && $post->description) ? $post->description : 'My name is Robbin, I enjoy building great web apps.' }}">
     <meta name="twitter:image" content="{{ (Route::currentRouteName() === 'posts.show' && $post->featured_image) ? url($post->featured_image) : url('/images/about1200x630.jpg') }}">
     <meta name="twitter:creator" content="@robbinworks">
-    <meta property="og:url" content="{{ Request::url() }}" />
+    <meta property="og:url" content="{{ url()->full() }}" />
     <meta property="og:type" content="{{ Route::currentRouteName() === 'posts.show' ? 'article' : 'website' }}" />
     <meta property="og:title" content="{{ Route::currentRouteName() === 'posts.show' ? $post->title : $title }} – {{ config('app.name') }}" />
     <meta property="og:description" content="{{ (Route::currentRouteName() === 'posts.show' && $post->description) ? $post->description : 'My name is Robbin, I enjoy building great web apps.' }}" />
