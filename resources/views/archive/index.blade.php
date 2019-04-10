@@ -13,7 +13,7 @@
                         </div>
                     </div>
                     <div class="text-sm mb-1">
-                        {{ $post->intro }}
+                        {{ $post->description }}
                     </div>
                     <a href="{{ $post->url }}">Read more &rarr;</a>
                 </div>

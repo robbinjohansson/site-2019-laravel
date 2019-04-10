@@ -8,7 +8,7 @@
             <div class="markdown">
                 <p>I'm a web developer from Sweden who enjoys developing great web applications, explore new technologies, contribute to open source projects and to spend time with my family.</p>
                 <p>Occasionally I will post neat little tips and tricks related to web development, mostly as a way to keep notes for my future self. Hopefully these notes can be of value to other fellow devs as well.</p>
-                <img src="/images/about.jpg" alt="about">
+                <img src="{{ url('/images/about1200x630@2x.jpg') }}" alt="about">
                 <p>☝🏻Photo taken by <a href="http://github.com/johanlinander" target="_BLANK" rel="noopener">@johanlinander</a>. It's a few years old but it was the best I could find, it was either that or a random image of a cat.</p>
                 <p>Full source code of this website is open source and available over at <a href="https://github.com/robbinworks/site" target="_BLANK" rel="noopener">GitHub</a>.</p>
             </div>

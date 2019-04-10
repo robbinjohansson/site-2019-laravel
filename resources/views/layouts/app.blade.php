@@ -22,10 +22,18 @@
     <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#f7fafc">
     <meta name="msapplication-TileColor" content="#f7fafc">
     <meta name="theme-color" content="#ffffff">
-    <title>{{ config('app.name', 'Laravel') }}</title>
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{ config('app.name', 'Laravel') }}" />
-    <meta property="og:description" content="I'm Robbin, I enjoy building great web apps." />
+    <title>{{ Route::currentRouteName() === 'posts.show' ? $post->title : $title }} – {{ config('app.name') }}</title>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@robbinworks">
+    <meta name="twitter:title" content="{{ Route::currentRouteName() === 'posts.show' ? $post->title : $title }} – {{ config('app.name') }}">
+    <meta name="twitter:description" content="{{ (Route::currentRouteName() === 'posts.show' && $post->description) ? $post->description : 'My name is Robbin, I enjoy building great web apps.' }}">
+    <meta name="twitter:image" content="{{ (Route::currentRouteName() === 'posts.show' && $post->featured_image) ? url($post->featured_image) : url('/images/about1200x630.jpg') }}">
+    <meta name="twitter:creator" content="@robbinworks">
+    <meta property="og:url" content="{{ Request::url() }}" />
+    <meta property="og:type" content="{{ Route::currentRouteName() === 'posts.show' ? 'article' : 'website' }}" />
+    <meta property="og:title" content="{{ Route::currentRouteName() === 'posts.show' ? $post->title : $title }} – {{ config('app.name') }}" />
+    <meta property="og:description" content="{{ (Route::currentRouteName() === 'posts.show' && $post->description) ? $post->description : 'My name is Robbin, I enjoy building great web apps.' }}" />
+    <meta property="og:image" content="{{ (Route::currentRouteName() === 'posts.show' && $post->featured_image) ? url($post->featured_image) : url('/images/about1200x630.jpg') }}" />
     <script src="{{ mix('js/app.js') }}" defer></script>
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>

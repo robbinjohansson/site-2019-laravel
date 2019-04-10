@@ -6,7 +6,7 @@
         <div class="w-full md:w-3/4 lg:w-1/2 px-4">
             <div class="w-full">
                 <h1>{{ $post->title }}</h1>
-                <div class="mb-8">
+                <div class="mb-10">
                     <div class="text-xs font-bold text-gray-500">
                         {{ dateFormat($post->date) }}.
                     </div>
