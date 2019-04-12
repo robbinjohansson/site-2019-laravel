@@ -6,8 +6,8 @@
                     <a href="/">Robbin Johansson</a>
                 </div>
                 <nav class="flex-1 text-right">
-                    <a href="{{ route('about') }}" class="ml-2 md:ml-3">About</a>
-                    <a href="{{ route('archive') }}" class="ml-2 md:ml-3">Archive</a>
+                    <a href="{{ route('about.index') }}" class="ml-2 md:ml-3">About</a>
+                    <a href="{{ route('archive.index') }}" class="ml-2 md:ml-3">Archive</a>
                     <a href="https://github.com/robbinworks" target="_BLANK" rel="noopener" class="ml-2 md:ml-3">GitHub</a>
                 </nav>
             </div>
