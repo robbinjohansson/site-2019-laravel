@@ -1,4 +1,8 @@
-@extends('layouts.app')
+@extends('layouts.app', [
+    'title' => $post->title,
+    'description' => $post->description,
+    'featured_image' => $post->featured_image
+])
 
 @section('content')
 <article class="container">

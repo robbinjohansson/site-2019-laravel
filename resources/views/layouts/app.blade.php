@@ -22,18 +22,18 @@
     <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#f7fafc">
     <meta name="msapplication-TileColor" content="#f7fafc">
     <meta name="theme-color" content="#ffffff">
-    <title>{{ Route::currentRouteName() === 'posts.show' ? $post->title : $title }} – {{ env('APP_NAME') }}</title>
+    <title>{{ $title ?? '🦊' }} - {{ env('APP_NAME') }}</title>
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@robbinworks">
-    <meta name="twitter:title" content="{{ Route::currentRouteName() === 'posts.show' ? $post->title : $title }} – {{ env('APP_NAME') }}">
-    <meta name="twitter:description" content="{{ (Route::currentRouteName() === 'posts.show' && $post->description) ? $post->description : 'My name is Robbin, I enjoy building great web apps.' }}">
-    <meta name="twitter:image" content="{{ (Route::currentRouteName() === 'posts.show' && $post->featured_image) ? env('APP_URL') . $post->featured_image : env('APP_URL') . 'images/about1200x630.jpg' }}">
+    <meta name="twitter:title" content="{{ $title ?? '🦊' }} - {{ env('APP_NAME') }}">
+    <meta name="twitter:description" content="{{ $description ?? 'My name is Robbin, I enjoy building great web apps.' }}">
+    <meta name="twitter:image" content="{{ env('APP_URL') }}{{ $featured_image ?? 'images/about1200x630.jpg' }}">
     <meta name="twitter:creator" content="@robbinworks">
     <meta property="og:url" content="{{ env('APP_URL') }}" />
     <meta property="og:type" content="{{ Route::currentRouteName() === 'posts.show' ? 'article' : 'website' }}" />
-    <meta property="og:title" content="{{ Route::currentRouteName() === 'posts.show' ? $post->title : $title }} – {{ env('APP_NAME') }}" />
-    <meta property="og:description" content="{{ (Route::currentRouteName() === 'posts.show' && $post->description) ? $post->description : 'My name is Robbin, I enjoy building great web apps.' }}" />
-    <meta property="og:image" content="{{ (Route::currentRouteName() === 'posts.show' && $post->featured_image) ? env('APP_URL') . $post->featured_image : env('APP_URL') . 'images/about1200x630.jpg' }}" />
+    <meta property="og:title" content="{{ $title ?? '🦊' }} - {{ env('APP_NAME') }}" />
+    <meta property="og:description" content="{{ $description ?? 'My name is Robbin, I enjoy building great web apps.' }}" />
+    <meta property="og:image" content="{{ env('APP_URL') }}{{ $featured_image ?? 'images/about1200x630.jpg' }}" />
     <script src="{{ mix('js/app.js') }}" defer></script>
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>

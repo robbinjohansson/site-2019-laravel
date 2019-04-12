@@ -15,8 +15,7 @@ class ArchiveController
     public function index(Sheets $sheets)
     {
         return view('archive.index', [
-            'title' => 'Archive',
-            'posts' => $sheets->collection('posts')->all()->sortByDesc('date'),
+            'posts' => $sheets->collection('posts')->all()->sortByDesc('date')
         ]);
     }
 }
