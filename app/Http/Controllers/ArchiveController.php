@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Spatie\Sheets\Sheets;
 use Illuminate\Http\Request;
 
-class ArchiveController extends Controller
+class ArchiveController
 {
     /**
      * Display the archive.
