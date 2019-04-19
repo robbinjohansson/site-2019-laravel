@@ -15,7 +15,7 @@ class PostController
      */
     public function index(Sheets $sheets)
     {
-        return view('posts.index', [
+        return view('pages.posts.index', [
             'posts' => $sheets->collection('posts')->all()->sortByDesc('date')->take(3)
         ]);
     }
@@ -28,6 +28,6 @@ class PostController
      */
     public function show(Post $post)
     {
-        return view('posts.show', ['post' => $post]);
+        return view('pages.posts.show', ['post' => $post]);
     }
 }
