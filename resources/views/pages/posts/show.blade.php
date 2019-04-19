@@ -12,7 +12,7 @@
                 <h1>{{ $post->title }}</h1>
                 <div class="mb-10">
                     <div class="text-xs font-bold text-gray-500">
-                        {{ dateFormat($post->date) }}.
+                        {{ dateFormat($post->date) }}
                     </div>
                 </div>
                 <div class="markdown">

@@ -2,5 +2,5 @@
 
 function dateFormat($date)
 {
-    return $date->format('F jS, Y');
+    return $date->format('j F Y');
 }
