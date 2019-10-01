@@ -16,5 +16,3 @@
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-For questions or information drop me an email me at mail@robbin.works.
