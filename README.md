@@ -4,7 +4,7 @@
 
 ## Tech stack
  
-- [Laravel](https://laravel.com/) 5.8
+- [Laravel](https://laravel.com/) 6.0
 - [Vuejs](https://vuejs.org/) 2.6
 - [Tailwindcss](https://tailwindcss.com/docs/what-is-tailwind/) 1.0
 - Assets compiled with [`JeffreyWay/laravel-mix`](https://github.com/JeffreyWay/laravel-mix/)
